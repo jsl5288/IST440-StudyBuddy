@@ -30,6 +30,9 @@
 		6E26E4EB1C62916C006EC94F /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E26E4E11C62916C006EC94F /* Security.framework */; };
 		6E26E4EC1C62916C006EC94F /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E26E4E21C62916C006EC94F /* StoreKit.framework */; };
 		6E26E4ED1C62916C006EC94F /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E26E4E31C62916C006EC94F /* SystemConfiguration.framework */; };
+		6E26E4F11C629247006EC94F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E26E4EE1C629247006EC94F /* LoginViewController.swift */; };
+		6E26E4F21C629247006EC94F /* ResetPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E26E4EF1C629247006EC94F /* ResetPasswordViewController.swift */; };
+		6E26E4F31C629247006EC94F /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E26E4F01C629247006EC94F /* SignUpViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,6 +82,9 @@
 		6E26E4E11C62916C006EC94F /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		6E26E4E21C62916C006EC94F /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		6E26E4E31C62916C006EC94F /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		6E26E4EE1C629247006EC94F /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		6E26E4EF1C629247006EC94F /* ResetPasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResetPasswordViewController.swift; sourceTree = "<group>"; };
+		6E26E4F01C629247006EC94F /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,6 +153,9 @@
 			children = (
 				6E26E4D91C6290EC006EC94F /* Frameworks */,
 				6E26E49F1C628D3A006EC94F /* AppDelegate.swift */,
+				6E26E4EE1C629247006EC94F /* LoginViewController.swift */,
+				6E26E4EF1C629247006EC94F /* ResetPasswordViewController.swift */,
+				6E26E4F01C629247006EC94F /* SignUpViewController.swift */,
 				6E26E4A11C628D3A006EC94F /* ViewController.swift */,
 				6E26E4A31C628D3A006EC94F /* Main.storyboard */,
 				6E26E4A61C628D3A006EC94F /* Assets.xcassets */,
@@ -331,8 +340,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E26E4F11C629247006EC94F /* LoginViewController.swift in Sources */,
 				6E26E4A21C628D3A006EC94F /* ViewController.swift in Sources */,
 				6E26E4A01C628D3A006EC94F /* AppDelegate.swift in Sources */,
+				6E26E4F21C629247006EC94F /* ResetPasswordViewController.swift in Sources */,
+				6E26E4F31C629247006EC94F /* SignUpViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
