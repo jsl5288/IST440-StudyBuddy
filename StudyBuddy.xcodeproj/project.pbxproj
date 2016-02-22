@@ -39,6 +39,14 @@
 		6E9661DC1C67E56F00A11453 /* YokoTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E9661D11C67E56F00A11453 /* YokoTextField.swift */; };
 		6E9661DD1C67E56F00A11453 /* YoshikoTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E9661D21C67E56F00A11453 /* YoshikoTextField.swift */; };
 		6E9661DF1C67EC4300A11453 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E9661DE1C67EC4300A11453 /* HomeViewController.swift */; };
+		9006DF831C7260570085711C /* FBAudienceNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9006DF7E1C7260570085711C /* FBAudienceNetwork.framework */; };
+		9006DF841C7260570085711C /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9006DF7F1C7260570085711C /* FBSDKCoreKit.framework */; };
+		9006DF851C7260570085711C /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9006DF801C7260570085711C /* FBSDKLoginKit.framework */; };
+		9006DF861C7260570085711C /* FBSDKMessengerShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9006DF811C7260570085711C /* FBSDKMessengerShareKit.framework */; };
+		9006DF871C7260570085711C /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9006DF821C7260570085711C /* FBSDKShareKit.framework */; };
+		9006DF891C7265240085711C /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9006DF881C7265240085711C /* Accounts.framework */; };
+		9006DF8B1C72654F0085711C /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9006DF8A1C72654F0085711C /* MobileCoreServices.framework */; };
+		9006DF8D1C7265660085711C /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9006DF8C1C7265660085711C /* Social.framework */; };
 		90D6359F1C692A8A0021FD26 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90D6359D1C692A8A0021FD26 /* Bolts.framework */; };
 		90D635A01C692A8A0021FD26 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90D6359E1C692A8A0021FD26 /* Parse.framework */; };
 		90D635A51C692AC00021FD26 /* ParseFacebookUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90D635A11C692AC00021FD26 /* ParseFacebookUtils.framework */; };
@@ -104,6 +112,15 @@
 		6E9661D11C67E56F00A11453 /* YokoTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YokoTextField.swift; sourceTree = "<group>"; };
 		6E9661D21C67E56F00A11453 /* YoshikoTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YoshikoTextField.swift; sourceTree = "<group>"; };
 		6E9661DE1C67EC4300A11453 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		9006DF7E1C7260570085711C /* FBAudienceNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBAudienceNetwork.framework; sourceTree = "<group>"; };
+		9006DF7F1C7260570085711C /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		9006DF801C7260570085711C /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		9006DF811C7260570085711C /* FBSDKMessengerShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKMessengerShareKit.framework; sourceTree = "<group>"; };
+		9006DF821C7260570085711C /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKShareKit.framework; sourceTree = "<group>"; };
+		9006DF881C7265240085711C /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		9006DF8A1C72654F0085711C /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		9006DF8C1C7265660085711C /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		9006DF8E1C72662E0085711C /* StudyBuddy-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "StudyBuddy-Bridging-Header.h"; sourceTree = "<group>"; };
 		90D6359D1C692A8A0021FD26 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
 		90D6359E1C692A8A0021FD26 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
 		90D635A11C692AC00021FD26 /* ParseFacebookUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseFacebookUtils.framework; sourceTree = "<group>"; };
@@ -117,21 +134,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				90D6359F1C692A8A0021FD26 /* Bolts.framework in Frameworks */,
-				6E26E4E41C62916C006EC94F /* AudioToolbox.framework in Frameworks */,
-				90D635A61C692AC00021FD26 /* ParseFacebookUtilsV4.framework in Frameworks */,
-				6E26E4E51C62916C006EC94F /* CFNetwork.framework in Frameworks */,
-				90D635A71C692AC00021FD26 /* ParseTwitterUtils.framework in Frameworks */,
-				6E26E4E61C62916C006EC94F /* CoreGraphics.framework in Frameworks */,
-				90D635A81C692AC00021FD26 /* ParseUI.framework in Frameworks */,
-				6E26E4E71C62916C006EC94F /* CoreLocation.framework in Frameworks */,
 				6E26E4E81C62916C006EC94F /* libsqlite3.tbd in Frameworks */,
-				90D635A01C692A8A0021FD26 /* Parse.framework in Frameworks */,
 				6E26E4E91C62916C006EC94F /* libz.tbd in Frameworks */,
-				6E26E4EA1C62916C006EC94F /* QuartzCore.framework in Frameworks */,
-				6E26E4EB1C62916C006EC94F /* Security.framework in Frameworks */,
-				6E26E4EC1C62916C006EC94F /* StoreKit.framework in Frameworks */,
 				6E26E4ED1C62916C006EC94F /* SystemConfiguration.framework in Frameworks */,
+				6E26E4EC1C62916C006EC94F /* StoreKit.framework in Frameworks */,
+				9006DF8D1C7265660085711C /* Social.framework in Frameworks */,
+				6E26E4EB1C62916C006EC94F /* Security.framework in Frameworks */,
+				6E26E4EA1C62916C006EC94F /* QuartzCore.framework in Frameworks */,
+				9006DF8B1C72654F0085711C /* MobileCoreServices.framework in Frameworks */,
+				6E26E4E71C62916C006EC94F /* CoreLocation.framework in Frameworks */,
+				6E26E4E61C62916C006EC94F /* CoreGraphics.framework in Frameworks */,
+				6E26E4E51C62916C006EC94F /* CFNetwork.framework in Frameworks */,
+				6E26E4E41C62916C006EC94F /* AudioToolbox.framework in Frameworks */,
+				9006DF891C7265240085711C /* Accounts.framework in Frameworks */,
+				90D6359F1C692A8A0021FD26 /* Bolts.framework in Frameworks */,
+				9006DF831C7260570085711C /* FBAudienceNetwork.framework in Frameworks */,
+				90D635A61C692AC00021FD26 /* ParseFacebookUtilsV4.framework in Frameworks */,
+				90D635A71C692AC00021FD26 /* ParseTwitterUtils.framework in Frameworks */,
+				9006DF841C7260570085711C /* FBSDKCoreKit.framework in Frameworks */,
+				90D635A81C692AC00021FD26 /* ParseUI.framework in Frameworks */,
+				90D635A01C692A8A0021FD26 /* Parse.framework in Frameworks */,
+				9006DF861C7260570085711C /* FBSDKMessengerShareKit.framework in Frameworks */,
+				9006DF851C7260570085711C /* FBSDKLoginKit.framework in Frameworks */,
+				9006DF871C7260570085711C /* FBSDKShareKit.framework in Frameworks */,
 				90D635A51C692AC00021FD26 /* ParseFacebookUtils.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -156,6 +181,9 @@
 		6E26E4931C628D3A006EC94F = {
 			isa = PBXGroup;
 			children = (
+				9006DF8C1C7265660085711C /* Social.framework */,
+				9006DF8A1C72654F0085711C /* MobileCoreServices.framework */,
+				9006DF881C7265240085711C /* Accounts.framework */,
 				6E26E49E1C628D3A006EC94F /* StudyBuddy */,
 				6E26E4B31C628D3A006EC94F /* StudyBuddyTests */,
 				6E26E4BE1C628D3A006EC94F /* StudyBuddyUITests */,
@@ -188,6 +216,7 @@
 				6E26E4A61C628D3A006EC94F /* Assets.xcassets */,
 				6E26E4A81C628D3A006EC94F /* LaunchScreen.storyboard */,
 				6E26E4AB1C628D3A006EC94F /* Info.plist */,
+				9006DF8E1C72662E0085711C /* StudyBuddy-Bridging-Header.h */,
 			);
 			path = StudyBuddy;
 			sourceTree = "<group>";
@@ -213,6 +242,11 @@
 		6E26E4D91C6290EC006EC94F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				9006DF7E1C7260570085711C /* FBAudienceNetwork.framework */,
+				9006DF7F1C7260570085711C /* FBSDKCoreKit.framework */,
+				9006DF801C7260570085711C /* FBSDKLoginKit.framework */,
+				9006DF811C7260570085711C /* FBSDKMessengerShareKit.framework */,
+				9006DF821C7260570085711C /* FBSDKShareKit.framework */,
 				90D635A11C692AC00021FD26 /* ParseFacebookUtils.framework */,
 				90D635A21C692AC00021FD26 /* ParseFacebookUtilsV4.framework */,
 				90D635A31C692AC00021FD26 /* ParseTwitterUtils.framework */,
@@ -544,6 +578,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/StudyBuddy",
@@ -552,6 +587,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = IST440.StudyBuddy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "StudyBuddy/StudyBuddy-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -559,6 +596,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/StudyBuddy",
@@ -567,6 +605,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = IST440.StudyBuddy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "StudyBuddy/StudyBuddy-Bridging-Header.h";
 			};
 			name = Release;
 		};
