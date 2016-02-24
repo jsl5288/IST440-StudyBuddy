@@ -181,9 +181,6 @@
 		6E26E4931C628D3A006EC94F = {
 			isa = PBXGroup;
 			children = (
-				9006DF8C1C7265660085711C /* Social.framework */,
-				9006DF8A1C72654F0085711C /* MobileCoreServices.framework */,
-				9006DF881C7265240085711C /* Accounts.framework */,
 				6E26E49E1C628D3A006EC94F /* StudyBuddy */,
 				6E26E4B31C628D3A006EC94F /* StudyBuddyTests */,
 				6E26E4BE1C628D3A006EC94F /* StudyBuddyUITests */,
@@ -207,14 +204,12 @@
 				6E9661C61C67E56F00A11453 /* TextFieldEffects */,
 				6E26E4D91C6290EC006EC94F /* Frameworks */,
 				6E26E49F1C628D3A006EC94F /* AppDelegate.swift */,
-				6E26E4EE1C629247006EC94F /* LoginViewController.swift */,
-				6E26E4EF1C629247006EC94F /* ResetPasswordViewController.swift */,
-				6E26E4F01C629247006EC94F /* SignUpViewController.swift */,
+				6EE060691C7E40B60064DB8C /* LoginControllers */,
 				6E26E4A11C628D3A006EC94F /* ViewController.swift */,
-				6E26E4A31C628D3A006EC94F /* Main.storyboard */,
 				6E9661DE1C67EC4300A11453 /* HomeViewController.swift */,
 				6E26E4A61C628D3A006EC94F /* Assets.xcassets */,
 				6E26E4A81C628D3A006EC94F /* LaunchScreen.storyboard */,
+				6E26E4A31C628D3A006EC94F /* Main.storyboard */,
 				6E26E4AB1C628D3A006EC94F /* Info.plist */,
 				9006DF8E1C72662E0085711C /* StudyBuddy-Bridging-Header.h */,
 			);
@@ -242,6 +237,9 @@
 		6E26E4D91C6290EC006EC94F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				9006DF8C1C7265660085711C /* Social.framework */,
+				9006DF8A1C72654F0085711C /* MobileCoreServices.framework */,
+				9006DF881C7265240085711C /* Accounts.framework */,
 				9006DF7E1C7260570085711C /* FBAudienceNetwork.framework */,
 				9006DF7F1C7260570085711C /* FBSDKCoreKit.framework */,
 				9006DF801C7260570085711C /* FBSDKLoginKit.framework */,
@@ -284,6 +282,16 @@
 				6E9661D21C67E56F00A11453 /* YoshikoTextField.swift */,
 			);
 			path = TextFieldEffects;
+			sourceTree = "<group>";
+		};
+		6EE060691C7E40B60064DB8C /* LoginControllers */ = {
+			isa = PBXGroup;
+			children = (
+				6E26E4EE1C629247006EC94F /* LoginViewController.swift */,
+				6E26E4EF1C629247006EC94F /* ResetPasswordViewController.swift */,
+				6E26E4F01C629247006EC94F /* SignUpViewController.swift */,
+			);
+			name = LoginControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
