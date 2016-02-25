@@ -51,6 +51,8 @@ class SignUpViewController: UIViewController {
             let spinner: UIActivityIndicatorView = UIActivityIndicatorView(frame: CGRectMake(0, 0, 150, 150)) as UIActivityIndicatorView
             spinner.startAnimating()
             
+            
+            //THIS IS WHERE IMPORTANT STUFF HAPPENS
             let newUser = PFUser()
             
             newUser.username = username
@@ -70,12 +72,46 @@ class SignUpViewController: UIViewController {
                     let alert = UIAlertView(title: "Success", message: "Signed Up", delegate: self, cancelButtonTitle: "OK")
                     alert.show()
                     dispatch_async(dispatch_get_main_queue(), { () -> Void in
-                        let viewController:UIViewController = UIStoryboard(name: "Main", bundle: nil).instantiateViewControllerWithIdentifier("Home")
+                        let viewController:UIViewController = UIStoryboard(name: "Main", bundle: nil).instantiateViewControllerWithIdentifier("FirstSetup")
                         self.presentViewController(viewController, animated: true, completion: nil)
                     })
                 }
             })
+            
+            let object = PFObject(className:"Profile")
+            object["name"] = username
+            object["firstName"] = ""
+            object["lastName"] = ""
+            object["yearStanding"] = ""
+            object["major"] = ""
+            object.saveInBackground()
+
         }
+    }
+    
+    @IBAction func facebookLogin(sender: AnyObject) {
+        // Set permissions required from the facebook user account
+        let permissionsArray = ["public_profile", "email"];
+        
+        // Login PFUser using Facebook
+        PFFacebookUtils.logInInBackgroundWithReadPermissions(permissionsArray, block: { (user, error) -> Void in
+            if ((user) == nil) {
+                NSLog("Uh oh. The user cancelled the Facebook login.");
+            }
+            else if (user!.isNew)
+            {
+                NSLog("User signed up and logged in through Facebook for the first time!");
+                
+                dispatch_async(dispatch_get_main_queue(), { () -> Void in
+                    let viewController:UIViewController = UIStoryboard(name: "Main", bundle: nil).instantiateViewControllerWithIdentifier("FirstSetup")
+                    self.presentViewController(viewController, animated: true, completion: nil)
+                })
+            }
+            else
+            {
+                NSLog("User logged in through Facebook!");
+            }
+        })
     }
     
     

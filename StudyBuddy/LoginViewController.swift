@@ -27,22 +27,6 @@ class LoginViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    @IBAction func facebookLogin(sender: AnyObject) {
-        // Set permissions required from the facebook user account
-        let permissionsArray = ["public_profile", "email"];
-        
-        // Login PFUser using Facebook
-        PFFacebookUtils.logInInBackgroundWithReadPermissions(permissionsArray, block: { (user, error) -> Void in
-            if ((user) == nil) {
-                NSLog("Uh oh. The user cancelled the Facebook login.");
-            } else if (user!.isNew) {
-                NSLog("User signed up and logged in through Facebook for the first time!");
-            } else {
-                NSLog("User logged in through Facebook!");
-            }
-        })
-    }
-    
     @IBAction func loginAction(sender: AnyObject)
     {
         let username = self.usernameField.text
