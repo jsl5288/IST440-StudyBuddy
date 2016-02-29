@@ -110,6 +110,7 @@ class SetupViewController: UIViewController, UITextFieldDelegate, UINavigationCo
                     object["name"] = pUserName
                     object["firstName"] = self.studentData[0]
                     object["lastName"] = self.studentData[1]
+                    
                     object["yearStanding"] = self.studentData[2]
                     object["major"] = self.studentData[3]
                     object.saveInBackground()
