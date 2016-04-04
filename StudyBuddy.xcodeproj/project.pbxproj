@@ -39,6 +39,9 @@
 		6E9661DC1C67E56F00A11453 /* YokoTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E9661D11C67E56F00A11453 /* YokoTextField.swift */; };
 		6E9661DD1C67E56F00A11453 /* YoshikoTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E9661D21C67E56F00A11453 /* YoshikoTextField.swift */; };
 		6E9661DF1C67EC4300A11453 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E9661DE1C67EC4300A11453 /* HomeViewController.swift */; };
+		6EBF4B401CB205FF00E08A1B /* ActiveChatsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EBF4B3E1CB205FF00E08A1B /* ActiveChatsViewController.swift */; };
+		6EBF4B411CB205FF00E08A1B /* ActiveChatTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EBF4B3F1CB205FF00E08A1B /* ActiveChatTableViewCell.swift */; };
+		6EBF4B431CB2061300E08A1B /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EBF4B421CB2061300E08A1B /* ChatViewController.swift */; };
 		6EE0606B1C7E46BF0064DB8C /* SetupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EE0606A1C7E46BF0064DB8C /* SetupViewController.swift */; };
 		6EE060701C7E48F50064DB8C /* SelectedUserTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EE0606F1C7E48F50064DB8C /* SelectedUserTableViewCell.swift */; };
 		9006DF831C7260570085711C /* FBAudienceNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9006DF7E1C7260570085711C /* FBAudienceNetwork.framework */; };
@@ -51,10 +54,10 @@
 		9006DF8D1C7265660085711C /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9006DF8C1C7265660085711C /* Social.framework */; };
 		90D6359F1C692A8A0021FD26 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90D6359D1C692A8A0021FD26 /* Bolts.framework */; };
 		90D635A01C692A8A0021FD26 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90D6359E1C692A8A0021FD26 /* Parse.framework */; };
-		90D635A51C692AC00021FD26 /* ParseFacebookUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90D635A11C692AC00021FD26 /* ParseFacebookUtils.framework */; };
 		90D635A61C692AC00021FD26 /* ParseFacebookUtilsV4.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90D635A21C692AC00021FD26 /* ParseFacebookUtilsV4.framework */; };
 		90D635A71C692AC00021FD26 /* ParseTwitterUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90D635A31C692AC00021FD26 /* ParseTwitterUtils.framework */; };
 		90D635A81C692AC00021FD26 /* ParseUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90D635A41C692AC00021FD26 /* ParseUI.framework */; };
+		E462E1C51F5BC6766B21E5D5 /* Pods_StudyBuddy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73A63FC9415F499029047009 /* Pods_StudyBuddy.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,6 +78,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		52DD21A05CA8943A96E5BD05 /* Pods-StudyBuddy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StudyBuddy.debug.xcconfig"; path = "Pods/Target Support Files/Pods-StudyBuddy/Pods-StudyBuddy.debug.xcconfig"; sourceTree = "<group>"; };
 		6E26E49C1C628D3A006EC94F /* StudyBuddy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StudyBuddy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E26E49F1C628D3A006EC94F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6E26E4A11C628D3A006EC94F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -114,8 +118,12 @@
 		6E9661D11C67E56F00A11453 /* YokoTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YokoTextField.swift; sourceTree = "<group>"; };
 		6E9661D21C67E56F00A11453 /* YoshikoTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YoshikoTextField.swift; sourceTree = "<group>"; };
 		6E9661DE1C67EC4300A11453 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		6EBF4B3E1CB205FF00E08A1B /* ActiveChatsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActiveChatsViewController.swift; sourceTree = "<group>"; };
+		6EBF4B3F1CB205FF00E08A1B /* ActiveChatTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActiveChatTableViewCell.swift; sourceTree = "<group>"; };
+		6EBF4B421CB2061300E08A1B /* ChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
 		6EE0606A1C7E46BF0064DB8C /* SetupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetupViewController.swift; sourceTree = "<group>"; };
 		6EE0606F1C7E48F50064DB8C /* SelectedUserTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectedUserTableViewCell.swift; sourceTree = "<group>"; };
+		73A63FC9415F499029047009 /* Pods_StudyBuddy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StudyBuddy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9006DF7E1C7260570085711C /* FBAudienceNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBAudienceNetwork.framework; sourceTree = "<group>"; };
 		9006DF7F1C7260570085711C /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
 		9006DF801C7260570085711C /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
@@ -124,13 +132,13 @@
 		9006DF881C7265240085711C /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
 		9006DF8A1C72654F0085711C /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		9006DF8C1C7265660085711C /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
-		9006DF8E1C72662E0085711C /* StudyBuddy-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "StudyBuddy-Bridging-Header.h"; sourceTree = "<group>"; };
 		90D6359D1C692A8A0021FD26 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
 		90D6359E1C692A8A0021FD26 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
 		90D635A11C692AC00021FD26 /* ParseFacebookUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseFacebookUtils.framework; sourceTree = "<group>"; };
 		90D635A21C692AC00021FD26 /* ParseFacebookUtilsV4.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseFacebookUtilsV4.framework; sourceTree = "<group>"; };
 		90D635A31C692AC00021FD26 /* ParseTwitterUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseTwitterUtils.framework; sourceTree = "<group>"; };
 		90D635A41C692AC00021FD26 /* ParseUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseUI.framework; sourceTree = "<group>"; };
+		924BEED1E96B4C618C14A0F3 /* Pods-StudyBuddy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StudyBuddy.release.xcconfig"; path = "Pods/Target Support Files/Pods-StudyBuddy/Pods-StudyBuddy.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -161,7 +169,7 @@
 				9006DF861C7260570085711C /* FBSDKMessengerShareKit.framework in Frameworks */,
 				9006DF851C7260570085711C /* FBSDKLoginKit.framework in Frameworks */,
 				9006DF871C7260570085711C /* FBSDKShareKit.framework in Frameworks */,
-				90D635A51C692AC00021FD26 /* ParseFacebookUtils.framework in Frameworks */,
+				E462E1C51F5BC6766B21E5D5 /* Pods_StudyBuddy.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -189,6 +197,8 @@
 				6E26E4B31C628D3A006EC94F /* StudyBuddyTests */,
 				6E26E4BE1C628D3A006EC94F /* StudyBuddyUITests */,
 				6E26E49D1C628D3A006EC94F /* Products */,
+				B7349F1BB0F6312335A46E6F /* Pods */,
+				BF9A84E553443F4747127E23 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -210,13 +220,13 @@
 				6EE060711C7E48FA0064DB8C /* TableViewCellControllers */,
 				6EE060691C7E40B60064DB8C /* LoginControllers */,
 				6EE0606E1C7E46D70064DB8C /* InitialSetupControllers */,
+				6EBF4B441CB2067600E08A1B /* ChatControllers */,
 				6E26E4A11C628D3A006EC94F /* ViewController.swift */,
 				6E9661DE1C67EC4300A11453 /* HomeViewController.swift */,
 				6E26E4A61C628D3A006EC94F /* Assets.xcassets */,
 				6E26E4A81C628D3A006EC94F /* LaunchScreen.storyboard */,
 				6E26E4A31C628D3A006EC94F /* Main.storyboard */,
 				6E26E4AB1C628D3A006EC94F /* Info.plist */,
-				9006DF8E1C72662E0085711C /* StudyBuddy-Bridging-Header.h */,
 				6E26E49F1C628D3A006EC94F /* AppDelegate.swift */,
 			);
 			path = StudyBuddy;
@@ -290,6 +300,15 @@
 			path = TextFieldEffects;
 			sourceTree = "<group>";
 		};
+		6EBF4B441CB2067600E08A1B /* ChatControllers */ = {
+			isa = PBXGroup;
+			children = (
+				6EBF4B3E1CB205FF00E08A1B /* ActiveChatsViewController.swift */,
+				6EBF4B421CB2061300E08A1B /* ChatViewController.swift */,
+			);
+			name = ChatControllers;
+			sourceTree = "<group>";
+		};
 		6EE060691C7E40B60064DB8C /* LoginControllers */ = {
 			isa = PBXGroup;
 			children = (
@@ -312,8 +331,26 @@
 			isa = PBXGroup;
 			children = (
 				6EE0606F1C7E48F50064DB8C /* SelectedUserTableViewCell.swift */,
+				6EBF4B3F1CB205FF00E08A1B /* ActiveChatTableViewCell.swift */,
 			);
 			name = TableViewCellControllers;
+			sourceTree = "<group>";
+		};
+		B7349F1BB0F6312335A46E6F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				52DD21A05CA8943A96E5BD05 /* Pods-StudyBuddy.debug.xcconfig */,
+				924BEED1E96B4C618C14A0F3 /* Pods-StudyBuddy.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BF9A84E553443F4747127E23 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				73A63FC9415F499029047009 /* Pods_StudyBuddy.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -323,9 +360,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6E26E4C41C628D3A006EC94F /* Build configuration list for PBXNativeTarget "StudyBuddy" */;
 			buildPhases = (
+				1E8C5C776772ADD863237F6B /* Check Pods Manifest.lock */,
 				6E26E4981C628D3A006EC94F /* Sources */,
 				6E26E4991C628D3A006EC94F /* Frameworks */,
 				6E26E49A1C628D3A006EC94F /* Resources */,
+				77BD1A1844605FF06CC517B4 /* Embed Pods Frameworks */,
+				997F1FE9FC6BAA22EB9B353B /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -446,19 +486,70 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1E8C5C776772ADD863237F6B /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		77BD1A1844605FF06CC517B4 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-StudyBuddy/Pods-StudyBuddy-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		997F1FE9FC6BAA22EB9B353B /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-StudyBuddy/Pods-StudyBuddy-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6E26E4981C628D3A006EC94F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6EBF4B401CB205FF00E08A1B /* ActiveChatsViewController.swift in Sources */,
 				6E9661D31C67E56F00A11453 /* AkiraTextField.swift in Sources */,
 				6E9661DD1C67E56F00A11453 /* YoshikoTextField.swift in Sources */,
 				6E9661DB1C67E56F00A11453 /* TextFieldsEffects.swift in Sources */,
 				6EE060701C7E48F50064DB8C /* SelectedUserTableViewCell.swift in Sources */,
 				6E9661D41C67E56F00A11453 /* HoshiTextField.swift in Sources */,
 				6E9661D71C67E56F00A11453 /* JiroTextField.swift in Sources */,
+				6EBF4B411CB205FF00E08A1B /* ActiveChatTableViewCell.swift in Sources */,
 				6E26E4F11C629247006EC94F /* LoginViewController.swift in Sources */,
 				6EE0606B1C7E46BF0064DB8C /* SetupViewController.swift in Sources */,
+				6EBF4B431CB2061300E08A1B /* ChatViewController.swift in Sources */,
 				6E9661D61C67E56F00A11453 /* IsaoTextField.swift in Sources */,
 				6E26E4A21C628D3A006EC94F /* ViewController.swift in Sources */,
 				6E9661DC1C67E56F00A11453 /* YokoTextField.swift in Sources */,
@@ -608,6 +699,7 @@
 		};
 		6E26E4C51C628D3A006EC94F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52DD21A05CA8943A96E5BD05 /* Pods-StudyBuddy.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -619,13 +711,14 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = IST440.StudyBuddy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "StudyBuddy/StudyBuddy-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		6E26E4C61C628D3A006EC94F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 924BEED1E96B4C618C14A0F3 /* Pods-StudyBuddy.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -637,7 +730,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = IST440.StudyBuddy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "StudyBuddy/StudyBuddy-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 			};
 			name = Release;
 		};

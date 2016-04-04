@@ -177,7 +177,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cnG-sA-E7h">
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translucent="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cnG-sA-E7h">
                                 <rect key="frame" x="0.0" y="623" width="375" height="44"/>
                                 <items>
                                     <barButtonItem style="plain" systemItem="flexibleSpace" id="QKy-13-6f8"/>
@@ -210,6 +210,9 @@
                                                 <state key="normal" title="Settings">
                                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                 </state>
+                                                <connections>
+                                                    <segue destination="0g8-dg-KJb" kind="presentation" id="ki4-e9-hza"/>
+                                                </connections>
                                             </button>
                                         </barButtonItem>
                                     </navigationItem>
@@ -577,5 +580,161 @@
             </objects>
             <point key="canvasLocation" x="44.5" y="1246.5"/>
         </scene>
+        <!--Active Chats View Controller-->
+        <scene sceneID="Fdg-6Q-kVa">
+            <objects>
+                <viewController storyboardIdentifier="ActiveChats" id="0g8-dg-KJb" customClass="ActiveChatsViewController" customModule="StudyBuddy" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="X5V-Ss-jvd"/>
+                        <viewControllerLayoutGuide type="bottom" id="gML-PO-hl8"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="bxP-Uq-pbB">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" translucent="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iGn-Cj-nhj">
+                                <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                                <color key="barTintColor" red="0.3002541011" green="0.65782438679999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <textAttributes key="titleTextAttributes">
+                                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </textAttributes>
+                                <items>
+                                    <navigationItem title="Active Chats" id="cFK-lj-Lf7">
+                                        <barButtonItem key="leftBarButtonItem" title="Back" id="Lzv-Bk-fJ7">
+                                            <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <connections>
+                                                <segue destination="91v-8v-7q3" kind="unwind" unwindAction="unwindToHome:" id="anP-z2-u9M"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="ZDG-sx-Q48">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="activeChat" rowHeight="100" id="UgS-tO-454" customClass="ActiveChatTableViewCell" customModule="StudyBuddy" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="375" height="100"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="UgS-tO-454" id="uDU-R8-gAY">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="99.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rM1-DI-g5n">
+                                                    <rect key="frame" x="102" y="12" width="265" height="21"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="21" id="bfA-JU-7R0"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PfJ-vs-YL4">
+                                                    <rect key="frame" x="102" y="36" width="265" height="56"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="user.png" translatesAutoresizingMaskIntoConstraints="NO" id="XMa-9i-Ei7">
+                                                    <rect key="frame" x="8" y="12" width="75" height="75"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="75" id="dig-fu-5Rq"/>
+                                                    </constraints>
+                                                </imageView>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="XMa-9i-Ei7" firstAttribute="top" secondItem="uDU-R8-gAY" secondAttribute="topMargin" constant="4" id="6cS-fi-RoF"/>
+                                                <constraint firstItem="XMa-9i-Ei7" firstAttribute="leading" secondItem="uDU-R8-gAY" secondAttribute="leadingMargin" id="Rw8-ek-1aJ"/>
+                                                <constraint firstItem="PfJ-vs-YL4" firstAttribute="trailing" secondItem="uDU-R8-gAY" secondAttribute="trailingMargin" id="T3H-Yf-BEc"/>
+                                                <constraint firstItem="XMa-9i-Ei7" firstAttribute="top" secondItem="rM1-DI-g5n" secondAttribute="top" id="XnJ-QI-caq"/>
+                                                <constraint firstItem="PfJ-vs-YL4" firstAttribute="trailing" secondItem="rM1-DI-g5n" secondAttribute="trailing" id="Yjp-rJ-XJe"/>
+                                                <constraint firstItem="XMa-9i-Ei7" firstAttribute="centerY" secondItem="uDU-R8-gAY" secondAttribute="centerY" id="Yry-DH-0kY"/>
+                                                <constraint firstItem="PfJ-vs-YL4" firstAttribute="top" secondItem="rM1-DI-g5n" secondAttribute="bottom" constant="3" id="fY2-nt-MXz"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="PfJ-vs-YL4" secondAttribute="bottom" constant="-0.5" id="gzx-aY-7iL"/>
+                                                <constraint firstItem="rM1-DI-g5n" firstAttribute="leading" secondItem="PfJ-vs-YL4" secondAttribute="leading" id="lu9-bg-BTL"/>
+                                                <constraint firstItem="rM1-DI-g5n" firstAttribute="leading" secondItem="XMa-9i-Ei7" secondAttribute="trailing" constant="19" id="quv-Rh-epf"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="cellAboutLabel" destination="PfJ-vs-YL4" id="rDr-VB-Mzk"/>
+                                            <outlet property="cellNameLabel" destination="rM1-DI-g5n" id="Ptg-CQ-p0a"/>
+                                            <outlet property="profileImage" destination="XMa-9i-Ei7" id="haz-1H-EgP"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="0g8-dg-KJb" id="BBc-0X-cd0"/>
+                                    <outlet property="delegate" destination="0g8-dg-KJb" id="G0M-Ge-YmI"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.3002541011" green="0.65782438679999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="ZDG-sx-Q48" firstAttribute="top" secondItem="iGn-Cj-nhj" secondAttribute="bottom" id="4fp-YF-AID"/>
+                            <constraint firstItem="ZDG-sx-Q48" firstAttribute="leading" secondItem="bxP-Uq-pbB" secondAttribute="leading" id="GVp-Au-TKl"/>
+                            <constraint firstAttribute="trailing" secondItem="iGn-Cj-nhj" secondAttribute="trailing" id="NLd-Sf-Kcq"/>
+                            <constraint firstItem="ZDG-sx-Q48" firstAttribute="bottom" secondItem="gML-PO-hl8" secondAttribute="top" id="OjQ-wM-K9K"/>
+                            <constraint firstItem="iGn-Cj-nhj" firstAttribute="trailing" secondItem="ZDG-sx-Q48" secondAttribute="trailing" id="k7J-NL-nJN"/>
+                            <constraint firstItem="iGn-Cj-nhj" firstAttribute="top" secondItem="X5V-Ss-jvd" secondAttribute="bottom" id="peh-NS-nt8"/>
+                            <constraint firstItem="iGn-Cj-nhj" firstAttribute="leading" secondItem="ZDG-sx-Q48" secondAttribute="leading" id="wll-LL-jJg"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="tableView" destination="ZDG-sx-Q48" id="K1Z-Vc-28X"/>
+                        <segue destination="gsc-KC-HzL" kind="presentation" identifier="activeChatClicked" id="0uz-rm-VlD"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="51O-bx-H5w" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="91v-8v-7q3" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="2070.5" y="1293.5"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="Qvh-Zj-1Xa">
+            <objects>
+                <navigationController id="gsc-KC-HzL" sceneMemberID="viewController">
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="ZhK-5S-xRG">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="Xli-9W-dcW" kind="relationship" relationship="rootViewController" id="xBs-jV-Z7b"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kw8-wm-513" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2666.5" y="1293.5"/>
+        </scene>
+        <!--Chat-->
+        <scene sceneID="AWf-4j-2mC">
+            <objects>
+                <viewController storyboardIdentifier="Chat" id="Xli-9W-dcW" customClass="ChatViewController" customModule="StudyBuddy" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="H2B-ke-asn"/>
+                        <viewControllerLayoutGuide type="bottom" id="uOG-3m-DnF"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="anf-Ly-UfM">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Chat" id="bSy-v0-97w">
+                        <barButtonItem key="leftBarButtonItem" title="Back" id="c3Q-ni-z1L">
+                            <connections>
+                                <action selector="previousView:" destination="Xli-9W-dcW" id="QBg-d6-sX7"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fgA-V7-0Wt" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3246.5" y="1293.5"/>
+        </scene>
     </scenes>
+    <resources>
+        <image name="user.png" width="640" height="1136"/>
+    </resources>
 </document>

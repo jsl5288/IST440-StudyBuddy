@@ -10,6 +10,7 @@ import UIKit
 import Parse
 import ParseUI
 import Bolts
+import ParseFacebookUtilsV4
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
