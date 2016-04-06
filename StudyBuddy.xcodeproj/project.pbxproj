@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		6E26E4A01C628D3A006EC94F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E26E49F1C628D3A006EC94F /* AppDelegate.swift */; };
-		6E26E4A21C628D3A006EC94F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E26E4A11C628D3A006EC94F /* ViewController.swift */; };
 		6E26E4A51C628D3A006EC94F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E26E4A31C628D3A006EC94F /* Main.storyboard */; };
 		6E26E4A71C628D3A006EC94F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E26E4A61C628D3A006EC94F /* Assets.xcassets */; };
 		6E26E4AA1C628D3A006EC94F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E26E4A81C628D3A006EC94F /* LaunchScreen.storyboard */; };
@@ -28,6 +27,10 @@
 		6E26E4F21C629247006EC94F /* ResetPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E26E4EF1C629247006EC94F /* ResetPasswordViewController.swift */; };
 		6E26E4F31C629247006EC94F /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E26E4F01C629247006EC94F /* SignUpViewController.swift */; };
 		6E504F521CB4B521002B1088 /* CourseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E504F511CB4B521002B1088 /* CourseTableViewCell.swift */; };
+		6E504F541CB4BF63002B1088 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E504F531CB4BF63002B1088 /* ProfileViewController.swift */; };
+		6E504F571CB4BFA3002B1088 /* ProfileTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E504F561CB4BFA3002B1088 /* ProfileTableViewCell.swift */; };
+		6E504F5A1CB4CAB1002B1088 /* AddCourseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E504F581CB4CAB1002B1088 /* AddCourseTableViewController.swift */; };
+		6E504F5C1CB4CC98002B1088 /* SelectOptionTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E504F5B1CB4CC98002B1088 /* SelectOptionTableViewController.swift */; };
 		6E9661D31C67E56F00A11453 /* AkiraTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E9661C71C67E56F00A11453 /* AkiraTextField.swift */; };
 		6E9661D41C67E56F00A11453 /* HoshiTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E9661C81C67E56F00A11453 /* HoshiTextField.swift */; };
 		6E9661D51C67E56F00A11453 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6E9661C91C67E56F00A11453 /* Info.plist */; };
@@ -84,7 +87,6 @@
 		52DD21A05CA8943A96E5BD05 /* Pods-StudyBuddy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StudyBuddy.debug.xcconfig"; path = "Pods/Target Support Files/Pods-StudyBuddy/Pods-StudyBuddy.debug.xcconfig"; sourceTree = "<group>"; };
 		6E26E49C1C628D3A006EC94F /* StudyBuddy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StudyBuddy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E26E49F1C628D3A006EC94F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		6E26E4A11C628D3A006EC94F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		6E26E4A41C628D3A006EC94F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6E26E4A61C628D3A006EC94F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6E26E4A91C628D3A006EC94F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -109,6 +111,10 @@
 		6E26E4EF1C629247006EC94F /* ResetPasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResetPasswordViewController.swift; sourceTree = "<group>"; };
 		6E26E4F01C629247006EC94F /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		6E504F511CB4B521002B1088 /* CourseTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CourseTableViewCell.swift; sourceTree = "<group>"; };
+		6E504F531CB4BF63002B1088 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		6E504F561CB4BFA3002B1088 /* ProfileTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileTableViewCell.swift; sourceTree = "<group>"; };
+		6E504F581CB4CAB1002B1088 /* AddCourseTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddCourseTableViewController.swift; sourceTree = "<group>"; };
+		6E504F5B1CB4CC98002B1088 /* SelectOptionTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectOptionTableViewController.swift; sourceTree = "<group>"; };
 		6E9661C71C67E56F00A11453 /* AkiraTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AkiraTextField.swift; sourceTree = "<group>"; };
 		6E9661C81C67E56F00A11453 /* HoshiTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HoshiTextField.swift; sourceTree = "<group>"; };
 		6E9661C91C67E56F00A11453 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -223,12 +229,12 @@
 			children = (
 				6E9661C61C67E56F00A11453 /* TextFieldEffects */,
 				6E26E4D91C6290EC006EC94F /* Frameworks */,
+				6E504F591CB4CAB1002B1088 /* AddCourseControllers */,
 				6EE060711C7E48FA0064DB8C /* TableViewCellControllers */,
 				6EE060691C7E40B60064DB8C /* LoginControllers */,
 				6EE0606E1C7E46D70064DB8C /* InitialSetupControllers */,
 				6EBF4B441CB2067600E08A1B /* ChatControllers */,
-				6E26E4A11C628D3A006EC94F /* ViewController.swift */,
-				6E9661DE1C67EC4300A11453 /* HomeViewController.swift */,
+				6E504F551CB4BF6E002B1088 /* HomeControllers */,
 				6E26E4A61C628D3A006EC94F /* Assets.xcassets */,
 				6EBF4B471CB207B700E08A1B /* Images.xcassets */,
 				6E26E4A81C628D3A006EC94F /* LaunchScreen.storyboard */,
@@ -289,6 +295,25 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		6E504F551CB4BF6E002B1088 /* HomeControllers */ = {
+			isa = PBXGroup;
+			children = (
+				6E504F531CB4BF63002B1088 /* ProfileViewController.swift */,
+				6E9661DE1C67EC4300A11453 /* HomeViewController.swift */,
+			);
+			name = HomeControllers;
+			sourceTree = "<group>";
+		};
+		6E504F591CB4CAB1002B1088 /* AddCourseControllers */ = {
+			isa = PBXGroup;
+			children = (
+				6E504F581CB4CAB1002B1088 /* AddCourseTableViewController.swift */,
+				6E504F5B1CB4CC98002B1088 /* SelectOptionTableViewController.swift */,
+			);
+			name = AddCourseControllers;
+			path = ..;
+			sourceTree = "<group>";
+		};
 		6E9661C61C67E56F00A11453 /* TextFieldEffects */ = {
 			isa = PBXGroup;
 			children = (
@@ -341,6 +366,7 @@
 				6EE0606F1C7E48F50064DB8C /* SelectedUserTableViewCell.swift */,
 				6EBF4B3F1CB205FF00E08A1B /* ActiveChatTableViewCell.swift */,
 				6E504F511CB4B521002B1088 /* CourseTableViewCell.swift */,
+				6E504F561CB4BFA3002B1088 /* ProfileTableViewCell.swift */,
 			);
 			name = TableViewCellControllers;
 			sourceTree = "<group>";
@@ -559,14 +585,17 @@
 				6E9661D71C67E56F00A11453 /* JiroTextField.swift in Sources */,
 				6EBF4B411CB205FF00E08A1B /* ActiveChatTableViewCell.swift in Sources */,
 				6E26E4F11C629247006EC94F /* LoginViewController.swift in Sources */,
+				6E504F571CB4BFA3002B1088 /* ProfileTableViewCell.swift in Sources */,
 				6EE0606B1C7E46BF0064DB8C /* SetupViewController.swift in Sources */,
 				6E504F521CB4B521002B1088 /* CourseTableViewCell.swift in Sources */,
 				6EBF4B431CB2061300E08A1B /* ChatViewController.swift in Sources */,
 				6E9661D61C67E56F00A11453 /* IsaoTextField.swift in Sources */,
-				6E26E4A21C628D3A006EC94F /* ViewController.swift in Sources */,
+				6E504F5A1CB4CAB1002B1088 /* AddCourseTableViewController.swift in Sources */,
 				6E9661DC1C67E56F00A11453 /* YokoTextField.swift in Sources */,
+				6E504F541CB4BF63002B1088 /* ProfileViewController.swift in Sources */,
 				6E9661D81C67E56F00A11453 /* KaedeTextField.swift in Sources */,
 				6E26E4A01C628D3A006EC94F /* AppDelegate.swift in Sources */,
+				6E504F5C1CB4CC98002B1088 /* SelectOptionTableViewController.swift in Sources */,
 				6E9661DF1C67EC4300A11453 /* HomeViewController.swift in Sources */,
 				6E9661D91C67E56F00A11453 /* MadokaTextField.swift in Sources */,
 				6E26E4F21C629247006EC94F /* ResetPasswordViewController.swift in Sources */,

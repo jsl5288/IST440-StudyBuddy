@@ -12,6 +12,8 @@ class SelectedUserTableViewCell: UITableViewCell
 {
     
     @IBOutlet weak var userInfoCell: UITextField!
+    @IBOutlet weak var courseLabel: UILabel!
+    @IBOutlet weak var addCourseLabel: UILabel!
     
     
     override func awakeFromNib()

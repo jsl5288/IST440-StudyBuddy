@@ -18,7 +18,17 @@ class LoginViewController: UIViewController {
     override func viewDidLoad()
     {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        //Stay logged in
+        let currentUser = PFUser.currentUser()
+        if currentUser != nil
+        {
+            dispatch_async(dispatch_get_main_queue(), { () -> Void in
+                let viewController:UIViewController = UIStoryboard(name: "Main", bundle: nil).instantiateViewControllerWithIdentifier("Home")
+                self.presentViewController(viewController, animated: true, completion: nil)
+            })
+            
+        }
         
     }
 
@@ -63,6 +73,7 @@ class LoginViewController: UIViewController {
     
     
     @IBAction func unwindToLogin (segue : UIStoryboardSegue) {}
+
 
 }
 
