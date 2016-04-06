@@ -48,7 +48,7 @@ class ActiveChatsViewController: UIViewController, UITableViewDelegate, UITableV
     {
         let cell = tableView.dequeueReusableCellWithIdentifier("activeChat") as! ActiveChatTableViewCell
         cell.cellNameLabel.text = userList[indexPath.row]
-        cell.cellAboutLabel.text = "THIS IS A TEST \nMORE TESTING"
+        cell.cellAboutLabel.text = "Course Name \nTime of Course"
         self.tableView.rowHeight = 100
         
         return cell;

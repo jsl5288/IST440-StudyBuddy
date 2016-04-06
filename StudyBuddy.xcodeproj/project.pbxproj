@@ -27,6 +27,7 @@
 		6E26E4F11C629247006EC94F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E26E4EE1C629247006EC94F /* LoginViewController.swift */; };
 		6E26E4F21C629247006EC94F /* ResetPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E26E4EF1C629247006EC94F /* ResetPasswordViewController.swift */; };
 		6E26E4F31C629247006EC94F /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E26E4F01C629247006EC94F /* SignUpViewController.swift */; };
+		6E504F521CB4B521002B1088 /* CourseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E504F511CB4B521002B1088 /* CourseTableViewCell.swift */; };
 		6E9661D31C67E56F00A11453 /* AkiraTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E9661C71C67E56F00A11453 /* AkiraTextField.swift */; };
 		6E9661D41C67E56F00A11453 /* HoshiTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E9661C81C67E56F00A11453 /* HoshiTextField.swift */; };
 		6E9661D51C67E56F00A11453 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6E9661C91C67E56F00A11453 /* Info.plist */; };
@@ -42,6 +43,8 @@
 		6EBF4B401CB205FF00E08A1B /* ActiveChatsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EBF4B3E1CB205FF00E08A1B /* ActiveChatsViewController.swift */; };
 		6EBF4B411CB205FF00E08A1B /* ActiveChatTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EBF4B3F1CB205FF00E08A1B /* ActiveChatTableViewCell.swift */; };
 		6EBF4B431CB2061300E08A1B /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EBF4B421CB2061300E08A1B /* ChatViewController.swift */; };
+		6EBF4B461CB2078900E08A1B /* chat.png in Resources */ = {isa = PBXBuildFile; fileRef = 6EBF4B451CB2078900E08A1B /* chat.png */; };
+		6EBF4B481CB207B700E08A1B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6EBF4B471CB207B700E08A1B /* Images.xcassets */; };
 		6EE0606B1C7E46BF0064DB8C /* SetupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EE0606A1C7E46BF0064DB8C /* SetupViewController.swift */; };
 		6EE060701C7E48F50064DB8C /* SelectedUserTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EE0606F1C7E48F50064DB8C /* SelectedUserTableViewCell.swift */; };
 		9006DF831C7260570085711C /* FBAudienceNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9006DF7E1C7260570085711C /* FBAudienceNetwork.framework */; };
@@ -105,6 +108,7 @@
 		6E26E4EE1C629247006EC94F /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		6E26E4EF1C629247006EC94F /* ResetPasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResetPasswordViewController.swift; sourceTree = "<group>"; };
 		6E26E4F01C629247006EC94F /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		6E504F511CB4B521002B1088 /* CourseTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CourseTableViewCell.swift; sourceTree = "<group>"; };
 		6E9661C71C67E56F00A11453 /* AkiraTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AkiraTextField.swift; sourceTree = "<group>"; };
 		6E9661C81C67E56F00A11453 /* HoshiTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HoshiTextField.swift; sourceTree = "<group>"; };
 		6E9661C91C67E56F00A11453 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -121,6 +125,8 @@
 		6EBF4B3E1CB205FF00E08A1B /* ActiveChatsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActiveChatsViewController.swift; sourceTree = "<group>"; };
 		6EBF4B3F1CB205FF00E08A1B /* ActiveChatTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActiveChatTableViewCell.swift; sourceTree = "<group>"; };
 		6EBF4B421CB2061300E08A1B /* ChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		6EBF4B451CB2078900E08A1B /* chat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chat.png; sourceTree = "<group>"; };
+		6EBF4B471CB207B700E08A1B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6EE0606A1C7E46BF0064DB8C /* SetupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetupViewController.swift; sourceTree = "<group>"; };
 		6EE0606F1C7E48F50064DB8C /* SelectedUserTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectedUserTableViewCell.swift; sourceTree = "<group>"; };
 		73A63FC9415F499029047009 /* Pods_StudyBuddy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StudyBuddy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -224,10 +230,12 @@
 				6E26E4A11C628D3A006EC94F /* ViewController.swift */,
 				6E9661DE1C67EC4300A11453 /* HomeViewController.swift */,
 				6E26E4A61C628D3A006EC94F /* Assets.xcassets */,
+				6EBF4B471CB207B700E08A1B /* Images.xcassets */,
 				6E26E4A81C628D3A006EC94F /* LaunchScreen.storyboard */,
 				6E26E4A31C628D3A006EC94F /* Main.storyboard */,
 				6E26E4AB1C628D3A006EC94F /* Info.plist */,
 				6E26E49F1C628D3A006EC94F /* AppDelegate.swift */,
+				6EBF4B451CB2078900E08A1B /* chat.png */,
 			);
 			path = StudyBuddy;
 			sourceTree = "<group>";
@@ -332,6 +340,7 @@
 			children = (
 				6EE0606F1C7E48F50064DB8C /* SelectedUserTableViewCell.swift */,
 				6EBF4B3F1CB205FF00E08A1B /* ActiveChatTableViewCell.swift */,
+				6E504F511CB4B521002B1088 /* CourseTableViewCell.swift */,
 			);
 			name = TableViewCellControllers;
 			sourceTree = "<group>";
@@ -464,7 +473,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				6E9661D51C67E56F00A11453 /* Info.plist in Resources */,
+				6EBF4B461CB2078900E08A1B /* chat.png in Resources */,
 				6E26E4AA1C628D3A006EC94F /* LaunchScreen.storyboard in Resources */,
+				6EBF4B481CB207B700E08A1B /* Images.xcassets in Resources */,
 				6E26E4A71C628D3A006EC94F /* Assets.xcassets in Resources */,
 				6E26E4A51C628D3A006EC94F /* Main.storyboard in Resources */,
 			);
@@ -549,6 +560,7 @@
 				6EBF4B411CB205FF00E08A1B /* ActiveChatTableViewCell.swift in Sources */,
 				6E26E4F11C629247006EC94F /* LoginViewController.swift in Sources */,
 				6EE0606B1C7E46BF0064DB8C /* SetupViewController.swift in Sources */,
+				6E504F521CB4B521002B1088 /* CourseTableViewCell.swift in Sources */,
 				6EBF4B431CB2061300E08A1B /* ChatViewController.swift in Sources */,
 				6E9661D61C67E56F00A11453 /* IsaoTextField.swift in Sources */,
 				6E26E4A21C628D3A006EC94F /* ViewController.swift in Sources */,
